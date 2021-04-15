@@ -8,8 +8,10 @@
 </head>
 <body> 
     
+    <h1>Formulario para entradas sin validación</h1>
 
     <form action="" method="GET" id="formulario">
+
 
     
         <ul>
@@ -60,6 +62,22 @@
                      <input type="hidden" name="oculto" style="display: block;" >
                  </li>
             </div>
+
+            <div>
+                <li style="margin-top: 10px;" >
+                    <label for="deshabilitado:" style="font-weight: bold;" >  campo deshabilitado:  </label> 
+                     <input type="text" disabled  name="deshabilitado" style="display: block" value="valor deshabilitado">
+                 </li>
+            </div>
+
+            <div>
+                <li style="margin-top: 10px;" >
+                    <label for="lectura:" style="font-weight: bold;" >  campo solo lectura:  </label> 
+                     <input type="text" readonly   name="lectura"  style="display: block" value="solo leeme" >
+                 </li>
+            </div>
+
+
 
             <div>
                 <li style="margin-top: 10px;"><label for="actividades" style="font-weight: bold;" >  Actividades extracurriculares:  </label>                
@@ -116,10 +134,10 @@
 
               
             <div style="margin-top: 30px;" >
-                        <li>        
+                        <li style="display: inline;">        
                         <input type="button" id="btnenviar" value="enviar formulario sin validación">
                         </li>
-                        <li style="margin-top: 10px;">            
+                        <li style="margin-top: 10px; display: inline    ;">            
                         <input type="button" id="btnenviar" value="reset a valores predeterminados">
                         </li>
              </div>
