@@ -1,3 +1,3 @@
 <?php
-include_once("ejercicio1.html");
+include_once("index.html");
 ?>
