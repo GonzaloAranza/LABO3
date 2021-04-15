@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    
+
+    <form action="" method="GET" id="formulario">
+
+    
+        <ul>
+            
+            <div>
+            <li style="margin-top: 10px; ">
+             <label for="nombre" style="font-weight: bold; ">  Ingrese su nombre: </label> 
+             <input type="text" name="nombre" id="nombre" placeholder="Nombre" style="display: block;">
+            </li>
+            </div>
+            
+
+            <div>
+               <li style="margin-top: 10px;" > 
+                <label for="apellido" style="font-weight: bold; " >  Ingrese su Apellido:   </label> 
+                 <input type="text" name="apellido" id="apellido" placeholder="Apellido" style="display: block;">
+                </li>
+            </div>
+
+
+            <div>
+                <li style="margin-top: 10px;">
+                    <label for="teléfono" style="font-weight: bold;" >  Ingrese su Teléfono:   </label>
+                    <input type="number" name="teléfono" id="teléfono" placeholder="011-4777-7777" min="0" style="display: block;">
+                 </li>   
+            </div>
+
+
+            <div>
+                <li style="margin-top: 10px;">
+                    <label for="dni" style="font-weight: bold;" >  Ingrese su DNI:   </label> 
+                    <input type="number" name="dni" id="dni" placeholder="DNI:" min="0" style="display: block;">
+                </li>   
+            </div>
+            
+
+            <div>
+                <li style="margin-top: 10px;">
+                    <label for="contraseña" style="font-weight: bold;" > Ingrese su Contraseña:  </label> 
+                    <input type="password" name="contraseña" id="contraseña" placeholder="Contraseña" style="display: block;">
+                </li>
+            </div>
+
+
+            <div>
+                <li style="margin-top: 10px;" >
+                    <label for="oculto:" style="font-weight: bold;" >  Oculto:  </label> 
+                     <input type="hidden" name="oculto" style="display: block;" >
+                 </li>
+            </div>
+
+            <div>
+                <li style="margin-top: 10px;"><label for="actividades" style="font-weight: bold;" >  Actividades extracurriculares:  </label>                
+                
+                <div style="display: block;">
+
+                    <label for="guitarra"style=" font-weight: bold;">guitarra</label>
+                    <input type="checkbox" name="guitarra" id="guitarra">
+
+                    <label for="bateria"style=" font-weight: bold;">bateria</label>
+                    <input type="checkbox" name="bateria" id="bateria">
+
+                    <label for="flauta"style=" font-weight: bold; ">guitarra</label>
+                    <input type="checkbox" name="flauta" id="flauta">
+
+                </div>
+                </li>
+            </div>
+
+            <div>
+                <li style="margin-top: 10px;"> <label for="sexo" style="font-weight: bold;  margin-top: 10px ; "> Sexo: </label> </li>
+                <label for="masculino" style="font-weight: bold;"> masculino</label>
+                <input type="radio" name="sexo" id="masculino">
+                <label for="masculino" style="font-weight: bold;"> femenino</label>
+                <input type="radio" name="sexo" id="femenino">
+             </div> 
+
+             <div>
+                 <li style="margin-top: 10px;">
+
+                 <select id="estudios" name="esdios">
+                    <option value="primario" selected="selected">primario</option>
+                    <option value="secundario">secundario</option>
+                    <option value="terciaro">terciaro</option>        
+
+                 </select>
+                 </li>
+             </div>
+
+
+             <li style="margin-top: 10px;">
+                 <label style="font-weight: bold;">Fecha y hora:</label>
+
+                 <div style="display: block;">
+                 <input type="date" name="Fecha" id="Fecha" > 
+                 <input type="time" name="hora" id="hora">
+                </div>
+             </li>
+
+             <li style="margin-top: 10px;">
+                 <label style="font-weight: bold;">Color:</label>
+                 <input type="color">
+             </li>
+
+              
+            <div style="margin-top: 30px;" >
+                        <li>        
+                        <input type="button" id="btnenviar" value="enviar formulario sin validación">
+                        </li>
+                        <li style="margin-top: 10px;">            
+                        <input type="button" id="btnenviar" value="reset a valores predeterminados">
+                        </li>
+             </div>
+            
+        </ul>
+            
+
+
+        
+
+    </form>
+</body>
+</html>
