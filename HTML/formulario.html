@@ -10,7 +10,7 @@
     
     <h1>Formulario para entradas sin validación</h1>
 
-    <form action="" method="GET" id="formulario">
+    <form action="./respuesta_al_formulario.html"target="_blanck"  method="get" id="formulario">
 
 
     
@@ -35,7 +35,7 @@
             <div>
                 <li style="margin-top: 10px;">
                     <label for="teléfono" style="font-weight: bold;" >  Ingrese su Teléfono:   </label>
-                    <input type="number" name="teléfono" id="teléfono" placeholder="011-4777-7777" min="0" style="display: block;">
+                    <input type="tel" name="teléfono" id="teléfono" placeholder="011-4777-7777" min="0" style="display: block;">
                  </li>   
             </div>
 
@@ -70,6 +70,7 @@
                  </li>
             </div>
 
+
             <div>
                 <li style="margin-top: 10px;" >
                     <label for="lectura:" style="font-weight: bold;" >  campo solo lectura:  </label> 
@@ -98,7 +99,8 @@
             </div>
 
             <div>
-                <li style="margin-top: 10px;"> <label for="sexo" style="font-weight: bold;  margin-top: 10px ; "> Sexo: </label> </li>
+                <li style="margin-top: 10px;"> 
+                <label for="sexo" style="font-weight: bold;  margin-top: 10px ; "> Sexo: </label> </li>
                 <label for="masculino" style="font-weight: bold;"> masculino</label>
                 <input type="radio" name="sexo" id="masculino">
                 <label for="masculino" style="font-weight: bold;"> femenino</label>
@@ -108,7 +110,7 @@
              <div>
                  <li style="margin-top: 10px;">
 
-                 <select id="estudios" name="esdios">
+                 <select id="estudios" name="estudios">
                     <option value="primario" selected="selected">primario</option>
                     <option value="secundario">secundario</option>
                     <option value="terciaro">terciaro</option>        
@@ -119,7 +121,7 @@
 
 
              <li style="margin-top: 10px;">
-                 <label style="font-weight: bold;">Fecha y hora:</label>
+                 <label for="Fecha" style="font-weight: bold;">Fecha y hora:</label>
 
                  <div style="display: block;">
                  <input type="date" name="Fecha" id="Fecha" > 
@@ -135,19 +137,94 @@
               
             <div style="margin-top: 30px;" >
                         <li style="display: inline;">        
-                        <input type="button" id="btnenviar" value="enviar formulario sin validación">
+                        <input type="submit" id="btnenviar" value="enviar formulario sin validación" >
                         </li>
+
                         <li style="margin-top: 10px; display: inline    ;">            
-                        <input type="button" id="btnenviar" value="reset a valores predeterminados">
+                        <input type="reset" id="btnenviar" value="reset a valores predeterminados">
                         </li>
              </div>
             
+
         </ul>
-            
-
-
-        
+                           
 
     </form>
+
+
+    <h1>Envío de formulario con validación</h1>
+
+    <form action="./respuesta_al_formulario.html" method="GET" id="formulario">
+        <ul>
+            <div style="margin-top: 30px">
+                <li>
+                    <label for="comentario" style="font-weight: bold;" >Comentario </label>
+                    <input style="display: block;" required title="campo requerido">
+                </li>
+            </div>
+
+            <div style="margin-top: 30px">
+                <li>
+                    <label for="email" style="font-weight: bold;">inbrese su mail</label>
+                    <input type="email" name="email" placeholder="xxx@xxx" style="display: block;" required title="campo requerido, acordarse del @" >
+                </li>
+
+            </div>
+
+            <div style="margin-top: 30px"> 
+                <li>
+                    <label for="Numero" style="font-weight: bold;">Numero entero limitado</label>
+                    <input type="number" name="Numero" id="Numero" min="1" max="10" style="display: block;" title="numero entre 1 y 10">
+                </li>
+            </div>
+
+            <div style="margin-top: 30px">
+                <li>
+                    <label for="real" style="font-weight: bold;">numero decimal</label>
+                    <input type="number" name="real" id="real" min="0.1" max="9.9" step="0.1" style="display: block;" title="min 0.1 max 9.9 (aumento de a 0.1)">
+                </li>
+            </div>
+
+            <div style="margin-top: 30px">
+                <li>
+                    <label for="URL" style="font-weight: bold;">URL: </label>
+                     <input type="url" name="real" id="real" min="0.1" max="9.9" step="0.1" placeholder="http://" required style="display: block;" title="recordar http://">
+                </li>
+            </div>
+
+
+
+            <div style="margin-top: 30px">
+                <li>
+                    <label for="pattern" style="font-weight: bold;">Pattern de validación</label>
+                    <input type="text" pattern="[a-z]{3}[1-2]{2}" name="pattern" id="pattern" title="escribí 3 letras y dos numeros que sean el 1 o el 2" style="display: block;" required >
+                </li>
+            </div>
+
+            <div style="margin-top: 30px">
+                <li>
+                    <label for="pattern2" style="font-weight: bold;">Pattern de validación</label>
+                    <input type="tel" pattern="(+54) 11 [0-9]{8}"name="pattern2" id="pattern2" title="codigo de área + 11 + número de 8 dígitos" style="display: block;" required >
+                </li>
+            </div>
+
+
+            <div style="margin-top: 30px;" >
+                <li style="display: inline;">        
+                <input type="submit" id="btnenviar" value="enviar formulario sin validación" >
+                </li>
+
+                <li style="margin-top: 10px; display: inline    ;">            
+                <input type="reset" id="btnenviar" value="reset a valores predeterminados">
+                </li>
+     </div>
+        </ul>
+
+
+
+    </form>
+
+
+
 </body>
 </html>
