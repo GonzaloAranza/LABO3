@@ -1,21 +1,17 @@
 div{
-
     background-color: skyblue;
     width: 30%;
-    height: 600px;
     margin: auto;
-    margin-top: 100px;
     border:solid black;
     border-width:thin;
     opacity: 0.5;
+    padding: 10%;
+    box-sizing: border-box;
 }
 
 
 #Imagen{
-    width: 10%;
-    height: 500px;
-    margin: auto;
-    border: thin red;    
+    border:  thin solid red;
     background-image:url('./imagen/cane.jpg'); 
     background-repeat:no-repeat;
     background-position:center center;
