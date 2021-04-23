@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    
+<style>
+
+    h1{font-size: 40px;
+    color: red;
+    margin-bottom: 15px;
+    border-bottom: double  blue;
+    text-align: center;
+    }
+
+    h2{font-size: 20px;
+    color: orange;
+    border-bottom:solid  green ;
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    }
+    
+    .p1
+    {font-size: 35;
+    color: rgba(255, 0, 0, 0.205);
+    margin-bottom: 12.5px;
+    border-bottom: solid  rgba(0, 0, 255, 0.315);
+    }
+
+     
+    .clasep2 {font-size: 15px;
+    color: rgba(255, 166, 0, 0.37);
+    border-bottom:dotted  rgba(0, 128, 0, 0.445) ;
+    text-align: right;
+    margin-right: 15px;
+    margin-bottom: 100px;
+
+    }
+
+    .claseDestacada{
+        font-size: 20px;
+        color: black;
+        font-weight: bold;
+    }
+    
+    .claseAcotacion{
+        border: solid blue;
+        text-align: center;
+        margin: 0px 50px;
+        color: blue;
+        line-height: 100px;
+    }
+
+    .claseAyuda{
+    font-size: 20px;
+    color: orange;
+    text-align: center;
+    border: solid rgba(255, 255, 0, 0.397);
+    border-width: 2.5px;
+    margin-right: 1000px;
+    }
+
+    .claseContenidoComun{
+        font-size: 14px;
+    }
+
+    #IDúnico{
+        color: red;
+        margin-right: 70%;
+        border: solid rgba(255, 0, 0, 0.473);
+    }
+
+    .A150{
+        max-width: 50%;
+    }
+
+</style>
+
+<body>
+    
+    <h1>A partir de esta paigna no usaremos más el atributo style en etiquetas</h1>
+    <h2>todo el estilo está definido en la etiqueta style anidada en la etiqueta head del documento</h2>
+
+    <p class="p1"> todos los párrafos tienen un default como estilo que incluye el margin-bottom para separarlos más entre ellos</p>
+
+    <p class="clasep2">este parrafo contiene un span perteneciente a clase destacada: <span class="claseDestacada">aquí está el span</span></p>
+
+    <p class="claseAcotacion">Este párrafo toma el estilo definido en la etiqueta style en el header del documento como class="claseAcotación". Este párrafo toma el estilo definido en la etiqueta style en el header del documento como class="claseAcotación". Este párrafo toma el estilo definido en la etiqueta style en el header del documento como class="claseAcotación" </p>
+
+
+    <p class="claseDestacada">Este párrafo toma el estilo definido en la etiqueta style en el header del documento como class="claseDestacada"</p>
+
+    <p class="claseAyuda"> Este párrafo toma el estilo definido en la etiqueta style en el header del documento como class="claseAyuda"</p>
+
+    <p class=".claseContenidoComun">Este parrafo toma el estilo definido en la etiqueta style en el header del documento como class="calseContenido común"</p>
+
+    <p class="claseAyuda" id="IDúnico">párrafo que toma el estilo definido en la estiqueta style en el header del documento como class="claseAyuda" PERO modificado por un esilo particular para el párrafo específico id:"idúnico"</p>
+
+    <img src="./imagenes/casa.jpg" class="A150">
+   
+
+</body>
+</html>
