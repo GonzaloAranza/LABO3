@@ -1,0 +1,38 @@
+h1{
+    font-size: 30px;
+    color:darkblue;
+    text-align:center;
+    margin-top: 10px;
+    border: solid blue;
+}
+
+h2{
+    text-align: left;
+    color: rgba(95, 95, 255, 0.952);
+    font-size: 20px;
+    margin-top: 10px;
+    border: solid rgba(95, 95, 255, 0.952);
+}
+
+p{
+text-align:left;
+margin-left: 10px;
+font-size:20px;
+color:rgb(2, 2, 85);
+font-style: italic;
+border-top: solid rgb(2, 2, 85);
+border-bottom: solid rgb(2, 2, 85) ;
+}
+
+div{
+    display: block;
+    border-bottom: double 10px royalblue;
+    font-size: 40px;
+    text-align: center;
+    border-top:  royalblue solid ;
+    margin-top: 30px;
+}
+
+span{
+    color: red;
+}
