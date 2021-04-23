@@ -1,4 +1,4 @@
-div{
+#div1{
     width: 50%;
     font-weight: bold;
     background-color: rgb(154, 255, 255);
@@ -7,12 +7,23 @@ div{
 }
 
 #div2{
+    width: 50%;
+    font-weight: bold;
     background-color: green;
-    padding-left: 10%;
+    white-space:pre-line; 
+    margin: auto;
+    padding-left: 10%;  
+    padding-right: 10%;
 }
 
 #div3{
+    width: 50%;
+    font-weight: bold;
     background-color: red;
+    white-space:pre-line; 
+    margin: auto;
     padding-left: 10%;
+    padding-right: 10%;
     box-sizing: border-box;
+
 }

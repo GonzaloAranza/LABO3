@@ -1,0 +1,14 @@
+div#cajaConImagenDeFondo {
+    width: 50%;
+    font-weight: bold;
+    background-color: red;
+    white-space:pre-line; 
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+background-image:url('./imagen/casa.jpg');
+background-repeat:no-repeat;
+background-position:center center;  
+background-size:contain;
+}
