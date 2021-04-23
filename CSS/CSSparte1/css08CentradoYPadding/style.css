@@ -3,12 +3,10 @@ div{
     font-weight: bold;
     background-color: rgb(154, 255, 255);
     white-space:pre-line; 
-    margin-left: 25%;
-
+    margin: auto;
 }
 
 #div2{
-
     background-color: green;
     padding-left: 10%;
 }
