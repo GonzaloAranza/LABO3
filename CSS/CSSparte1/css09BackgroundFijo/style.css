@@ -15,12 +15,13 @@
     background-image:url('./imagen/cane.jpg'); 
     background-repeat:no-repeat;
     background-position:center;
-    background-size:contain; 
+    background-size:contain;
     margin: auto;
     height: 480px;
     overflow: auto;
     opacity: 0.5;
     border-top-left-radius: 50px;
+    white-space: pre-line;
 }
 
 
