@@ -1,0 +1,20 @@
+div{
+    width: 50%;
+    font-weight: bold;
+    background-color: rgb(154, 255, 255);
+    white-space:pre-line; 
+    margin-left: 25%;
+
+}
+
+#div2{
+
+    background-color: green;
+    padding-left: 10%;
+}
+
+#div3{
+    background-color: red;
+    padding-left: 10%;
+    box-sizing: border-box;
+}
