@@ -1,23 +1,48 @@
 * { 
     box-sizing: border-box;
-    font-size: 14px;
     font-size:100%;
-    padding: 0 3%;
+    padding: 0 5%;
     }
 
 #Contenedor{
-    background-color: cornflowerblue;
-    padding: 0;
+    background: rgba(136, 202, 247, 0.863);
 }
 
 .Interno{
     border: solid black;
     border-width: thin;
     margin-bottom: 10%;
-    height: 200px;
-    padding: 0;
-    box-sizing: border-box; 
+    height: 100px;
+    padding: 0; 
+    width: 20%;
     float:left;
     margin:10px;
-    font-size:12px
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 16px 8px 2px rgba(0, 0, 0, 0.548);
+}
+
+#Div1{
+    background: linear-gradient(0deg, pink,white,orange);
+}
+
+#Div2{
+    background: radial-gradient(ellipse, orange,white,pink);
+    font-size: 15px;
+}
+
+#Div3{
+    background: linear-gradient(0deg, pink,white,orange);
+}
+
+#Div4{
+    background: radial-gradient(ellipse, orange,white,pink);
+    font-size: 15px;
+}
+
+#Div5{
+    background: linear-gradient(0deg, pink,white,orange);
 }
