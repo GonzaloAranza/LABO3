@@ -2,13 +2,12 @@
     box-sizing: border-box;
     font-size: 14px;
     font-size:100%;
-    padding: 0 10%; 
+    padding: 0 10%;
     }
 
 #Contenedor{
     background-color: rgba(136, 202, 247, 0.863);
     padding: 0 35%;
-
 }
 
 .Interno{

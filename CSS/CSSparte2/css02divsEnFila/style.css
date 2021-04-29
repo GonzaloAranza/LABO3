@@ -1,0 +1,11 @@
+#Contenedor{
+    background-color: rgba(136, 202, 247, 0.863);
+    padding: 0 35%;
+}
+
+.interno{
+float:left;
+margin:10px;
+font-size:12px
+
+}
