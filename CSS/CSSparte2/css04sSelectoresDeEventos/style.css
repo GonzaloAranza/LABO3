@@ -1,0 +1,77 @@
+#Contenedor{
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color: lightblue;
+}
+
+div.Botón{
+    float: left;
+    border: solid blue;
+    border-width: thin;
+    padding: 0.5%;
+    background: rgb(190, 190, 190);
+}
+
+div.Botón:hover{
+    background-color: blue;
+
+}
+
+div.Botón:active 
+{
+    background-color: yellow;
+    
+}
+
+div.Botón:focus{
+    
+}
+
+div.NuevaLinea{
+    clear: both;
+    margin-bottom: 20px;
+}
+
+#Apellido{
+    display: block;
+}
+
+#Nombre{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.Imagen{
+    float: left;
+    border: solid black;
+    border-width: thin;
+    width: 100px;
+    height: 100px;
+}
+
+#cerezo{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#tigre{
+    max-height: 100%;
+    max-width: 100%;
+}
+#prado{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#azafran{
+    max-height: 100%;
+    max-width: 100%;
+
+}
+
+.Imagen:active{
+
+    height: 480px;
+    width: 480px;
+
+}
