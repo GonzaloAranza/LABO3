@@ -1,7 +1,13 @@
+
+
 body{
     background: blue;
     padding: 0 10%;
-    box-sizing: border-box;
+
+}
+
+h1{
+    margin: 0%;
 }
 
 #Contenedor{
@@ -12,7 +18,7 @@ body{
     background: green;
     font-size: 32px;
     margin-top: 10px;
-    padding: 10px 0px ;
+    padding: 10px 10px ;
     width: 85%;
 }
 
