@@ -1,0 +1,47 @@
+html , body{
+    height: 100%;
+    padding: 0 7.5%;
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+}
+
+#Contenedor{
+    background: lightblue;
+    height: 100%;
+}   
+
+#Interno1{
+    background: lightseagreen;
+    width: 13%;
+    position:absolute;
+    top:35%;
+    left:14%;
+    height:40%; 
+}
+
+#Interno2{
+    background: lightgreen;
+    width: 36%;
+    position:absolute;
+    top:60%;
+    left: 50%;
+    height:30%;
+}
+
+.Imagen{
+    max-width: 30%;
+    max-height: 100%;
+}
+
+#Interno3{
+    background: gray;
+    opacity: 0.5;
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    top:25%;
+    left:45%;
+}
