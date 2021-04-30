@@ -1,16 +1,17 @@
 body{
     background: blue;
     padding: 0 10%;
-
+    margin: 0;
 }
 
 h1{
-    margin: 0%;
-    
+    margin: 0;
 }
+
 
 #Contenedor{
     background: whitesmoke;
+
 }
 
 .clase1{
