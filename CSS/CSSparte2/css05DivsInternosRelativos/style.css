@@ -1,0 +1,53 @@
+body{
+    background: blue;
+    padding: 0 10%;
+    box-sizing: border-box;
+}
+
+#Contenedor{
+    background: whitesmoke;
+}
+
+.clase1{
+    background: green;
+    font-size: 32px;
+    margin-top: 10px;
+    padding: 10px 0px ;
+    width: 85%;
+}
+
+.clase2{
+    background: yellow;
+    margin-top: 30px;
+    padding: 10px 0px;
+    font-size: 32px;
+    width: 50%;
+    white-space: pre-line;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clase3{
+    width: 50%;
+    background: orange;
+    white-space: pre-line;
+    margin-left: 35%;
+    margin-right: 30%;
+    margin-top: 30px;
+    overflow-y: auto;
+    height: 160px;
+    font-size: 28px;
+}
+
+.modal{
+    width: 40%;
+    height: 240px;
+    background: blue;
+    opacity: 0.5;
+    white-space: pre-line;
+    color: white;
+    overflow-y: auto;
+    position: fixed;
+    top:20%;
+    left:25%;
+}

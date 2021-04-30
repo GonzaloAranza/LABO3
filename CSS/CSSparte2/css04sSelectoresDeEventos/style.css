@@ -23,8 +23,9 @@ div.Botón:active
     
 }
 
-div.Botón:focus{
-    
+a{
+    text-decoration: none;
+    color: unset;
 }
 
 div.NuevaLinea{
@@ -41,7 +42,15 @@ div.NuevaLinea{
     margin-bottom: 20px;
 }
 
-.Imagen{
+#Apellido:focus{
+    background: violet;
+}
+
+#Nombre:focus{
+    background: tomato;
+}
+
+.DivImagen{
     float: left;
     border: solid black;
     border-width: thin;
@@ -49,29 +58,18 @@ div.NuevaLinea{
     height: 100px;
 }
 
-#cerezo{
+.Imagen{
     max-height: 100%;
-    max-width: 100%;
+    max-width: 100%; 
 }
 
-#tigre{
-    max-height: 100%;
-    max-width: 100%;
-}
-#prado{
-    max-height: 100%;
-    max-width: 100%;
-}
-
-#azafran{
-    max-height: 100%;
-    max-width: 100%;
-
-}
-
-.Imagen:active{
+.DivImagen:active{
 
     height: 480px;
     width: 480px;
 
 }
+
+
+
+
