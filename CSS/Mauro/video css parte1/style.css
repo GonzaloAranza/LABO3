@@ -1,0 +1,53 @@
+#ppal strong.importante #uno {
+    color: red;
+}
+
+
+td#pri span,td#seg .pag{
+    color: blue;
+}
+
+
+table th, table td{
+    border:solid black;
+    border-width: thin;
+}
+
+table tr#titulos th{
+    background: blue;
+    color: white;
+    text-align: left;
+}
+
+table tr.pares td{
+    background: yellow;
+
+}
+
+
+
+td#mayor{
+    color: red;
+    border:solid red;
+    font-weight: bold;
+}
+
+th#titulo-total{
+    background: red;
+    color: white;
+    font-weight: normal;
+}
+
+td#celda-total{
+    border: solid black;
+}
+
+th.suave{
+    color: grey;
+    text-align: left;
+    font-weight: normal;
+}
+
+li{
+    display: inline-block;
+}

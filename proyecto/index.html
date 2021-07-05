@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Cuestionario</title>
+</head>
+    <body>
+        <h1> Cuestionario </h1>
+        <div class="contenedor">
+            <form action="noimporta" method="POST">
+                <h1> Datos</h1>
+
+                    <input type="text" name="nombre" id="Nombre" placeholder="Nombre" class="ingreso" required  >
+                
+                    <input type="text" name="apellido" id="Apellido" placeholder="Apellido" class="ingreso" >
+
+
+                <div id="divsexo">
+                    <p id="p-sexo">sexo:</p>
+                    <input type="radio" name="sexo" id="masculino" value="Masculino" class="ingreso" checked>
+                    <label for="masculino"> masculino</label>
+
+                    <input type="radio" name="sexo" id="femenino" value="Femenino" class="ingreso">
+                    <label for="femenino"> femenino</label>
+
+                </div>
+                
+                <div>
+                    <label for="edad">Fecha de nacimiento:</label>
+                    <input type="date" name="edad" id="edad" class="ingreso"  >
+                </div>
+
+                <input type="button" name="btncomenzar" id="BTNcomenzar" value="comenzar">
+
+                <div id="divpuntaje">
+
+                </div>
+            </form>
+        </div>
+
+        <div class="puntos" ID="punto1">
+            <h3>El nombre de la variable que viajará al servidor esta definido por:</h3>
+            <div id="divcorrecta1">
+                <label for="Name" >Name</label>
+                <input type="radio" id="Name" name="VarServidor" class="radiocorrecto"  checked>
+            </div>
+
+            <div id="divincorrecta1">
+            <label for="ID">ID</label>
+            <input type="radio" id="ID" name="VarServidor"  class="radioincorrecto"  >
+            </div>
+
+            <div id="divincorrecta2">
+                <label for="value">Value</label>
+                <input type="radio" id="value" name="VarServidor"  class="radioincorrecto">
+            </div>
+
+            <input type="button" class="btnsiguiente" id="BTNsiguiente1" value="siguiente">
+        </div>
+
+        <div class="puntos" id="punto2">
+            <h3>formas de agregar código javascript al documento</h3>
+
+            <div >
+                <label for="option1">usando la etiqueta &lt; script &gt; en el body </label>
+                <input type="checkbox" id="option1" name="checkbox" class="checkboxcorrecto" >
+            </div>
+
+            <div >
+                <label for="option2">usando la etiqueta &lt; script &gt; en el head </label>
+                <input type="checkbox" id="option2" name="checkbox" class="checkboxcorrecto" >
+            </div>
+
+
+            <div >
+                <label for="option3">usando la consola del navegador</label>
+                <input type="checkbox" id="option3" name="checkbox" class="checkboxincorrecto" >
+            </div>
+            <input type="button" class="btnsiguiente" id="BTNsiguiente2" value="siguiente">
+
+        </div>
+
+
+        <div class="puntos" id="punto3">
+
+            <h3>Lenguaje de programación diseñado por google:</h3>
+            <select id="opciones">
+                <option value="incorrecta">&nbsp;</option>
+                <option value="correcta">Dart</option>
+                <option value="incorrecta">Swift</option>
+                <option value="incorrecta">Flutter</option>
+            </select>
+
+            <input type="button" class="btnsiguiente" id="BTNsiguiente3" value ="siguiente">
+
+        </div>
+
+        <div class="puntos" id="punto4">
+            <h3>Seleccione la imagen correspondiente a linux</h3>
+        
+            <img src="./imagenes/android.png" alt="" class="logo" onclick="logoincorrecto(this)"  >
+        
+        
+            <img src="./imagenes/linux.jpg" alt="" class="logo" onclick="logocorrecto(this)">
+        
+              
+            <img src="./imagenes/mac.jpg" alt="" class="logo" onclick="logoincorrecto(this)">
+           
+
+    
+            <img src="./imagenes/windows.png" alt="" class="logo" onclick="logoincorrecto(this)">
+        
+        </div>
+   
+        <div class="puntos" id="punto5">
+            <h3>Señale si la afirmación es verdadera o falsa</h3>
+            <div class="contenedor-afirmaciones">
+                <div class="afirmacion">
+                    <h4> php es un lenguaje del lado cliente</h4>
+
+                    <label for="V1" >V</label>
+                    <input type="radio" name="php" id="V1" value="incorrecta" class= "VF">   
+
+                    <label for="F1" >F</label>
+                    <input type="radio" name="php" id="F1" value="correcta" class="VF">
+
+                </div>
+
+                <div class="afirmacion">
+                   <h4> javascript puede usarse del lado servidor </h4>
+
+                   <label for="V2" >V</label>
+                   <input type="radio" name="JS" id="V2" value="correcta" class= "VF">  
+
+                   <label for="F2" >F</label>
+                   <input type="radio" name="JS" id="F2" value="incorrecta" class="VF">
+                </div>
+
+                <div class="afirmacion">
+                    <h4> laravel es un framework de javascript  </h4>
+                    <label for="V3" >V</label>
+                    <input type="radio" name="laravel" id="V3" value="incorrecta" class= "VF">      
+
+                    <label for="F3" >F</label>
+                    <input type="radio" name="laravel" id="F3"  value="correcta" class="VF">
+                </div>
+
+                <div class="afirmacion">
+                    <h4 >node.js sirve para programar del lado servidor con php </h4>
+                    <label for="V4" >V</label>
+                    <input type="radio" name="node.js" id="V4" value="incorrecta" class= "VF"> 
+                    
+                    <label for="F4" >F</label>
+                    <input type="radio" name="node.js" id="F4" value="correcta" class="VF">
+                </div>
+
+                <input type="button" class="btnsiguiente" id="BTNsiguiente4" value ="FIN">
+
+            </div>
+
+
+
+        </div>
+    
+        <script src="./JS/interac.JS"></script>
+    </body>
+</html>
